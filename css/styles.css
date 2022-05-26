@@ -1,0 +1,243 @@
+html{
+    box-sizing: border-box;
+}
+*, *:before *:after{
+    box-sizing: inherit;
+}
+img{
+    max-width: 100%;
+}
+
+
+
+body {
+background-color: darkgray;
+margin: 0;
+display: inline-block;
+}
+    
+header{
+background-color: black;
+color: white;
+height: auto;
+position: sticky;
+top: 0;
+display: inline-block;
+width: 100%;
+}
+.navbar{
+ display: flex;
+ justify-content: space-between;
+}
+.logo{
+    height: 12vh;
+}
+.logo-img{
+    height: 12vh;
+    width: 75px;
+   display: block;
+}
+
+.Liste{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    text-align: center;
+    padding-top: 2vw;
+    margin: 0;
+    height: 5vh;
+}
+.navbar-item{
+    margin: 1vh 1vw;
+    padding: 1vh 1vw; 
+    display: block;
+    text-align: center;
+    
+}
+
+header li a{
+    text-decoration: none;
+    font-style: normal;
+    font-size: large;
+    font-family:sans-serif;
+    color:white;
+    display: block;
+    height: 4vw;
+}
+
+header li a:hover {
+background-color: #111;
+color: red;
+}
+header li a:active{
+    color: blue;
+}
+
+.presentation{
+    display: flex;
+    justify-content: space-between;
+    padding: 2vh 0 2vh 2vw;
+}
+nav{ 
+    text-align: justify;
+    color: black;
+    display: block;
+    width: 29vw;
+
+}
+
+.brand img{
+    width:65vw ;
+    height: 65vh;
+ }
+
+ .btn{
+    text-align: center;
+    display: block;
+    color: white;
+    background-color: #333;
+    text-decoration: none;
+    margin: 0 5vw;
+    padding: 2vw;
+    border-radius: 1vw;
+}
+
+.Reseaux-Sociaux{
+    display: inline-flex;
+    list-style-type: none;
+    width: auto;
+    height: auto;
+}
+nav img{
+    display: block;
+    width: 7vw;
+    height: 7vW;
+    margin-right: 3vw;
+}   
+h1, h2
+{
+    text-align: center;
+}
+
+.pub{
+    display: block;
+    background-color: #333;
+    color: white;
+    border-radius: 1vw;
+    text-align: center;
+    padding: 1vw 0;
+    width: 98vw;
+}
+
+section{
+ margin: 10px;
+display: grid;
+grid-template-columns: repeat(3, 1fr);
+grid-template-rows: repeat(2, 1fr);
+grid-gap: 20px;
+}
+.programme{
+   text-align: center;
+   display: grid;
+   grid-template-columns: repeat(1, 1fr);
+   grid-gap: 5px;
+}
+.programme img{
+    border-radius: 1vw;
+}
+.button{
+    text-decoration: none;
+    text-align: center;
+    background-color: #333;
+    color: white;
+    border-radius: 6px;
+    padding: 10px 0px;
+    margin: 0 60px;
+}
+
+footer{
+    background-color: #111;
+    color: white;
+    display: grid;
+    grid-template-columns: repeat(1,1fr);
+    grid-template-rows: repeat(1, 1fr);
+}
+.haut{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 25px;
+}
+.bas{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.block li {
+    
+    list-style-type: none;
+    margin: 10px 0;
+}
+.block li a {
+    text-decoration: none;
+    color: white;
+}
+@media only screen and (max-width: 900px) {
+    .btn{
+        font-size: small;
+     }
+
+     section{
+        margin: 10px;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-gap: 20px;
+       font-size: small;
+       }
+       .bas{
+        flex-wrap: wrap;
+        
+    }
+  }
+
+
+@media only screen and (max-width: 600px) {
+
+
+    header li a {
+        font-size:small;
+    }
+    .presentation{
+        flex-wrap:wrap;
+        padding: 0;
+     }   
+     .brand{
+         order: -1;
+     }
+     nav{
+         width: auto;
+         padding: 0 5vw;
+     }
+     .btn{
+        margin: 0 25vw;
+        padding: 4vw;
+
+     }
+     .Reseaux-Sociaux{
+         margin-left: 22vw;
+     }
+     .brand img{
+         width: auto;
+     }
+     section{
+        margin: 10px;
+       display: grid;
+       grid-template-columns: repeat(2, 1fr);
+       grid-gap: 20px;
+       font-size: small;
+       }
+       .bas{
+           flex-wrap: wrap;
+           font-size:small;
+       }
+  }
+ 
