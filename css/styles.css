@@ -85,7 +85,6 @@ nav{
     width: 29vw;
 
 }
-
 .brand img{
     width:65vw ;
     height: 65vh;
@@ -127,7 +126,9 @@ h1, h2
     text-align: center;
     padding: 1vw 0;
     width: 98vw;
+   
 }
+
 
 section{
  margin: 10px;

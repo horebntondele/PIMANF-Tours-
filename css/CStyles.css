@@ -1,0 +1,200 @@
+html{
+    box-sizing: border-box;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+*, *:before *:after{
+    box-sizing: inherit;
+}
+img{
+    max-width: 100%;
+}
+
+body {
+    background-color: darkgray;
+    display: block;
+    }
+
+header
+{
+        background-color: black;
+        color: white;
+        height: auto;
+        position: sticky;
+        top: 0;
+        display: inline-block;
+        width: 100%;
+}
+
+.navbar{
+            display: flex;
+            justify-content: space-between;
+       }
+       .logo{
+        height: 12vh;
+    }
+    .logo-img{
+        height: 12vh;
+        width: 75px;
+       display: block;
+    }
+    .Liste{
+        display: flex;
+        justify-content: space-between;
+        list-style-type: none;
+        text-align: center;
+        padding-top: 2vw;
+        margin: 0;
+        height: 5vh;
+    }
+    .navbar-item{
+        margin: 1vh 1vw;
+        padding: 1vh 1vw; 
+        display: block;
+        text-align: center;
+        
+    }
+    header li a{
+        text-decoration: none;
+        font-style: normal;
+        font-size: large;
+        font-family:sans-serif;
+        color:white;
+        display: block;
+        height: 4vw;
+    }
+    
+    header li a:hover {
+    background-color: #111;
+    color: red;
+    }
+    header li a:active{
+        color: blue;
+    }
+.pubimg{
+    display: block;
+    position: absolute;
+    margin-top: -3px;
+    z-index: -1;
+}
+
+.pubimg img{
+            height: 75vh; 
+            width: 100vw;
+        }
+.Plabel{
+            height: 75vh;
+            color: #fff;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            position: relative;
+            display: block;
+            z-index: -1;
+        }
+.Plabel h1{
+            border: 1px solid #fff;
+            border-radius: 6px;
+            width:35vw;
+            margin-left: 60vh;
+            background-color: #111;
+            position: absolute;
+            bottom: 10px;
+        }
+.presentation{
+display: flex;
+padding-top: 10px;
+margin-left: 100px;
+margin-right: 100px;
+margin-bottom: 25px;
+
+}
+.presentation nav{
+    padding-top: 10px;
+    background-color: #111;
+    color: #fff;
+    margin-right: 50px;
+    margin-left: 5px;
+    padding: 10px;
+    Padding-bottom: 20px;
+    height: 275px;
+    border-radius: 6px;
+    text-align: center;
+    justify-content: center;
+    display: block;
+    
+    }
+    .presentation nav h1{
+        margin-bottom: 15px;
+        margin-left: 25PX;
+        width: 200px;
+        text-align: center;
+    justify-content: center;
+        }
+        .presentation nav table{
+            margin-top: 20px;
+            width: 320px;
+            }
+ .presentation nav table tr{
+                margin-bottom: 15px;
+                }
+.presentation nav table tr i
+{
+                    margin: 10px;
+                    color: blue;
+                    font-size: larger;
+                }
+ .presentation nav table tr td{
+                    text-align: left;
+                    }
+.formulaire{
+Padding-top: 10px ;
+margin-left: 50px;
+margin-right: 25px;
+margin-bottom: 15px;
+background-color: darkcyan;
+color: #111;
+border-radius: 6px;
+padding: 10px;
+width: 350px;
+}
+.formulaire p{
+    margin-bottom: 15px;
+    text-align: left;
+    font-size: large;
+    color: #fff;
+    }
+    .formulaire form{
+       text-align: center;
+       font-weight: bold;
+        }
+        footer{
+            background-color: #111;
+            color: white;
+            display: grid;
+            grid-template-columns: repeat(1,1fr);
+            grid-template-rows: repeat(1, 1fr);
+        }
+        .haut{
+            display: flex;
+            justify-content: space-between;
+            margin: 0 25px;
+        }
+        .bas{
+            display: flex;
+            justify-content: space-evenly;
+        }
+        
+        .block li {
+            
+            list-style-type: none;
+            margin: 10px 0;
+        }
+        .block li a {
+            text-decoration: none;
+            color: white;
+        }
