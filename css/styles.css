@@ -240,5 +240,14 @@ footer{
            flex-wrap: wrap;
            font-size:small;
        }
+
+       .block h1{
+font-size:large;
+text-align: center;
+
+       }
+       .haut{  
+        margin: 0;
+    }
   }
  
